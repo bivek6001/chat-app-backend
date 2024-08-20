@@ -8,7 +8,7 @@ const {Server}= require("socket.io")
 
 let io= new Server(server,{
     cors: {
-        origin: "https://chat-app-frontend-8pkm.onrender.com",
+        origin: ["https://chat-app-frontend-8pkm.onrender.com"],
         methods: ["GET", "POST"]
     }
 }
