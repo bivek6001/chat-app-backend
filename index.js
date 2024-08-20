@@ -12,7 +12,7 @@ connection();
 app.use(cors(
     {
         credentials:true,
-        origin:"http://localhost:3000" 
+        origin:"https://chat-app-frontend-8pkm.onrender.com" 
     }
 ));
 app.use(express.json());
